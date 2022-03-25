@@ -13,9 +13,9 @@ const initialState = {
             : [],
 
         paymentMethod: localStorage.getItem('paymentMethod')
-            ? JSON.parse(localStorage.getItem('paymentMethod'))
+            ? localStorage.getItem('paymentMethod')
             : '',
-
+        // paymentMethod: ''
     }
 }
 
