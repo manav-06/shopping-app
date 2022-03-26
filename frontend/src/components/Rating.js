@@ -6,8 +6,8 @@ const Rating = (props) => {
 
     return (
         <div className='rating'>
-            {[1, 2, 3, 4, 5].map(cur =>
-                <span>
+            {[1, 2, 3, 4, 5].map((cur, idx) =>
+                <span key={idx}>
                     <i className={
                         rating >= cur
                             ? 'fas fa-star'
