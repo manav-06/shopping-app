@@ -1,5 +1,26 @@
 {
   "dependencies": {
     "mailgun-js": "^0.22.0"
-  }
+  },
+  "name": "shopping-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "cd backend && npm install && cd ../frontend && npm install && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manav-06/shopping-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manav-06/shopping-app/issues"
+  },
+  "homepage": "https://github.com/manav-06/shopping-app#readme",
+  "description": ""
 }
